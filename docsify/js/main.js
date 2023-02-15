@@ -17,7 +17,7 @@ window.onload = () => {
   document.getElementById('theme-switch').type = themeType;
   const link = document.getElementById('theme-link');
   link.href = link.href.replace(link.href.includes('dark') ? 'dark' : 'light', themeType);
-  obfuscated();
+  setTimeout(obfuscated(), 1000);
 };
 document.getElementById('theme-switch').addEventListener('click', (e) => {
   const link = document.getElementById('theme-link');
