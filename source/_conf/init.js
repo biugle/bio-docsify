@@ -9,17 +9,17 @@
 window.$docsify = {
   // https://docsify.js.org/#/zh-cn/configuration
   el: '#bio-main',
-  basePath: '/bio/',
+  basePath: '/source/',
   name: '前端文档生成模板 Bio',
   // logo: './favicon.png',
   nameLink: '/',
-  loadSidebar: './layout/_sidebar.md',
-  loadNavbar: './layout/_navbar.md',
-  coverpage: './layout/_coverpage.md',
+  loadSidebar: './_conf/_sidebar.md',
+  loadNavbar: './_conf/_navbar.md',
+  coverpage: './_conf/_coverpage.md',
   alias: {
-    '/.*/_sidebar.md': './layout/_sidebar.md',
-    '/.*/_navbar.md': './layout/_navbar.md',
-    '/.*/_coverpage.md': './layout/_coverpage.md'
+    '/.*/_sidebar.md': './_conf/_sidebar.md',
+    '/.*/_navbar.md': './_conf/_navbar.md',
+    '/.*/_coverpage.md': './_conf/_coverpage.md'
   },
   notFoundPage: './404.md',
   mergeNavbar: true,
@@ -45,7 +45,7 @@ window.$docsify = {
   },
   plugins: [
     EditOnGithubPlugin.create(
-      'https://github.com/pandaoh/bio-docsify/tree/master/bio/',
+      'https://github.com/pandaoh/bio-docsify/tree/master/source/',
       null,
       "<span id='edit-btn'>Edit Online</span>"
     )

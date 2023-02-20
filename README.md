@@ -17,14 +17,20 @@
 
 ## 预览 Preview
 
+> [Demo Preview](http://bio.biugle.cn)
+
+### Use
+
+* `/source/` 此目录为静态文档根目录，一般只需编辑此目录内容即可，其他均为预设主题代码。
+
 ### Light
 
-![](./light.png)
+![](./preview/light.png)
 
-![](./light.pre.png)
+![](./preview/light.pre.png)
 
 ### Dark
 
-![](./dark.png)
+![](./preview/dark.png)
 
-![](./dark.pre.png)
+![](./preview/dark.pre.png)
