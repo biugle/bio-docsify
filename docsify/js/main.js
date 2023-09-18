@@ -2,9 +2,9 @@
  * @Author: HxB
  * @Date: 2023-02-13 18:23:03
  * @LastEditors: DoubleAm
- * @LastEditTime: 2023-03-06 16:27:53
+ * @LastEditTime: 2023-03-06 16:30:13
  * @Description: 新增部分功能
- * @FilePath: \bio-docsify\docsify\js\main.js
+ * @FilePath: \web-docs\docsify\js\main.js
  */
 const VERSION = '1.0.0';
 

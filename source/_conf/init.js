@@ -2,15 +2,15 @@
  * @Author: HxB
  * @Date: 2023-02-13 13:42:01
  * @LastEditors: DoubleAm
- * @LastEditTime: 2023-02-14 16:56:58
+ * @LastEditTime: 2023-02-20 16:42:22
  * @Description: 配置文件
- * @FilePath: \web_docs\config\config.js
+ * @FilePath: \web-docs\source\_conf\init.js
  */
 window.$docsify = {
   // https://docsify.js.org/#/zh-cn/configuration
   el: '#bio-main',
   basePath: '/source/',
-  name: '前端文档生成模板 Bio',
+  name: '前端文档',
   // logo: './favicon.png',
   nameLink: '/',
   loadSidebar: './_conf/_sidebar.md',
@@ -27,7 +27,6 @@ window.$docsify = {
   onlyCover: true,
   subMaxLevel: 5,
   maxLevel: 5,
-  repo: 'https://github.com/pandaoh/bio-docsify',
   auto2top: true,
   search: {
     maxAge: 86400000,
@@ -36,7 +35,7 @@ window.$docsify = {
     noData: 'No Results!',
     depth: 5,
     hideOtherSidebarContent: false,
-    namespace: 'bio'
+    namespace: 'biugle-web'
   },
   tabs: {
     persist: true,
@@ -45,7 +44,7 @@ window.$docsify = {
   },
   plugins: [
     EditOnGithubPlugin.create(
-      'https://github.com/pandaoh/bio-docsify/tree/master/source/',
+      'https://github.com/biugle/web-docs/tree/main/source/',
       null,
       "<span id='edit-btn'>Edit Online</span>"
     )

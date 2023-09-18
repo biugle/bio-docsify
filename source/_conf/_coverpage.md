@@ -1,16 +1,15 @@
-# Bio-Docsify
+![](../../files/logo.png ':size=200')
 
-> 一个基于 Docsify 的前端文档生成模板 [docsify-pro](https://github.com/pandaoh/bio-docsify)
+# 前端文档
 
-* 支持 `themeable`
-* 支持暗黑/简约主题模式切换
-* 支持本地搜索
-* 支持回到顶部
-* 支持 `Markdown` 扩展语法
-* 支持分页、代码块一键复制、图片缩放
-* 支持 `flexible-alerts`
-* 支持在线编辑、外链跳转
+> 文档，是一个团队的基础建设！
+
+* 帮助大家快速熟悉、融入团队。
+* 将技术知识固化分享，共同进步。
+* 增强对知识的提炼总结能力，温故而知新。
+* 提升成员间的协作与效率，避免非必要的重复。
+* 作为团队的沉淀与财富，进行知识传递，防止断档。
+* ...
 
 [Get Started](/home?id=起步)
-[GitHub](https://github.com/pandaoh/bio-docsify)
-[Preview](http://bio.biugle.cn)
+[GitHub](https://github.com/biugle/web-docs)
